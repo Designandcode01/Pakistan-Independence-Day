@@ -17,8 +17,8 @@ export default function Home() {
     return (
         <main className="bg-green-800 min-h-screen text-white mt-5">
           {/* <CountdownWithFireworks /> */}
-          <FlagAnimation />
           <Countdown />
+          <FlagAnimation />
           {/* <Fireworks /> */}
 
       <div className="z-10 mt-10">

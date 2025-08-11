@@ -38,14 +38,14 @@ export default function Countdown() {
   const seconds = totalSeconds % 60;
 
   return (
-    <div className="text-white text-2xl text-center mt-4 font-bold">
+    <div className="text-white text-2xl text-center mt-4 p-5 font-bold">
       {totalSeconds > 0 ? (
         <span className="flex justify-center gap-2">
           <AnimatedNumber value={days} />d
           <AnimatedNumber value={hours} />h
           <AnimatedNumber value={minutes} />m
           <AnimatedNumber value={seconds} />s
-          <span className="ml-2">until Pakistan Independence Day! 🇵🇰</span>
+          <span className="ml-2 px-3.5"> Pakistan Independence Day! 🇵🇰</span>
         </span>
       ) : (
         <span>🎉 Happy Independence Day! 🎉</span>
