@@ -21,16 +21,16 @@ export default function Home() {
           <FlagAnimation />
           {/* <Fireworks /> */}
 
-      <div className="z-10 mt-10">
+      {/* <div className="z-10 mt-10">
         <PakistanTimeline />
-      </div>
+      </div> */}
 
         <div className="z-10 mt-10">
         <TimelineHistory />
         </div>
-        <div className="z-10 mt-10">
+        {/* <div className="z-10 mt-10">
         <PhotoGallery />
-        </div>
+        </div> */}
 
         </main>
       );

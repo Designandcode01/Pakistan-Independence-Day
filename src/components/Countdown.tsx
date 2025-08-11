@@ -38,7 +38,7 @@ export default function Countdown() {
   const seconds = totalSeconds % 60;
 
   return (
-    <div className="text-white text-2xl text-center mt-4 p-5 font-bold">
+    <div className="flex flex-col justify-center items-center text-white text-2xl text-center mt-4 p-5 font-bold">
       {totalSeconds > 0 ? (
         <span className="flex justify-center gap-2">
           <AnimatedNumber value={days} />d
