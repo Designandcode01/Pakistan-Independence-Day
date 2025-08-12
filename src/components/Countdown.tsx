@@ -39,13 +39,14 @@ export default function Countdown() {
 
   return (
     <div className="flex flex-col justify-center items-center text-white text-2xl text-center mt-4 p-5 font-bold">
+      <div><span className="ml-2 px-3.5"> Pakistan Independence Day! 🇵🇰</span></div>
       {totalSeconds > 0 ? (
         <span className="flex justify-center gap-2">
           <AnimatedNumber value={days} />d
           <AnimatedNumber value={hours} />h
           <AnimatedNumber value={minutes} />m
           <AnimatedNumber value={seconds} />s
-          <span className="ml-2 px-3.5"> Pakistan Independence Day! 🇵🇰</span>
+          {/* <span className="ml-2 px-3.5"> Pakistan Independence Day! 🇵🇰</span> */}
         </span>
       ) : (
         <span>🎉 Happy Independence Day! 🎉</span>
